@@ -1,15 +1,8 @@
-# To-Do List Application
+# Task Manager Application
 
-A simple and intuitive front-end application for managing personal tasks. This to-do list app allows users to add, edit, delete, and organize tasks stored in the browser's local storage, ensuring data persists between sessions.
+A simple and intuitive front-end application allows users to add, edit, delete, and organize tasks stored in the browser's local storage, ensuring data persists between sessions.
 
-## Overview
 
-This project provides an easy-to-use task management tool where users can:
-- Add new tasks with titles, descriptions, due dates, and priority levels.
-- Mark tasks as complete.
-- Filter tasks based on priority and status (completed, overdue, or upcoming).
-- Edit and delete tasks directly from the task list.
-- Store tasks locally, allowing data persistence without a backend.
 
 Built with **React** and **Tailwind CSS**, this application focuses on functionality, simplicity, and responsive design.
 
@@ -57,18 +50,15 @@ Basic Styling with Tailwind CSS:
 Tailwind CSS is used for a responsive, mobile-friendly design.
 Additional Information
 Features
-Task Management: Add, edit, delete, and mark tasks as complete.
-Filtering & Search: Find tasks by title, priority, and status (upcoming, overdue, or completed).
+
 Responsive Design: Adapts layout to various screen sizes.
 Local Storage: Ensures tasks persist in the browser.
 Project Structure
-components/ - Contains UI components like TaskForm, TaskCard, and SearchAndFilter.
+components/ - Contains UI components like Dashboard, Addnewfiles.
 context/ - Provides TaskContext for global task management.
 App.js - The main app component that integrates all components.
 Future Improvements
 If more time were available, possible enhancements could include:
 
-Adding a backend database for cross-device task persistence.
-User authentication for personalized to-do lists.
-Additional task categories and color-coded priorities.
+
 Dark mode for accessibility.
